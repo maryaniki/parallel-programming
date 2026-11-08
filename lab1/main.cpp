@@ -52,7 +52,7 @@ int main()
         long long elements = 1LL * n * n;
         std::cout << "Elements: " << elements << std::endl;
 
-        long long operations = (long long)n * n * n;
+        long long operations = 2LL * n * n * n;
         std::cout << "Operations: " << operations << std::endl;
 
         double memoryMB = static_cast<double>(3 * n * n * sizeof(double)) / (1024 * 1024);
