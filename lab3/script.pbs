@@ -1,0 +1,15 @@
+#!/bin/bash
+#SBATCH --job-name=lab3_MPI
+#SBATCH --time=00:20:00
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --partition=batch
+
+module load intel/mpi4
+
+for P in 1 2 4 8 16
+do
+	mpirun -np $P ./lab3_mpi
+done
+
+echo "Result save"
