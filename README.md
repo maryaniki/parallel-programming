@@ -10,6 +10,7 @@
 |---|---|---|
 | 1 | [Умножение квадратных матриц с автоматической верификацией](./lab1/) | C++, Python, NumPy |
 | 2 | [Параллельное умножение квадратных матриц](./lab2/) | C++, OpenMP |
+| 3 | [MPI - параллельное перемножение квадратных матриц](./lab3/) | C++, MPI |
 
 ## Структура проекта
 
@@ -31,6 +32,12 @@ parallel-programming/
 │   ├── CMakeLists.txt
 │   └── README.md
 │
+├── lab3/
+│   ├── main.cpp
+│   ├── results.txt
+│   ├── script.pbs
+│   └── README.md
+│
 ├── CMakeLists.txt
 ├── CMakePresets.json
 ├── .gitignore
@@ -44,3 +51,4 @@ parallel-programming/
 - Python
 - NumPy
 - OpenMP
+- MPI
